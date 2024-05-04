@@ -76,8 +76,7 @@ resource "aws_autoscaling_group" "auto_scaling_group" {
   }
 }
 
-# ALB Info
-
+# Application Load Balancer
 resource "aws_lb" "alb" {
   name               = "${var.name}-public-alb"
   internal           = false
