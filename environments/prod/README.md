@@ -10,6 +10,9 @@ This Terraform script provisions an AWS S3 bucket for hosting a static website. 
 4. Run `terraform plan` to preview the changes.
 5. Run `terraform apply` to apply the changes and create the S3 bucket.
 
+## Check My Website
+To view your static website, navigate to [nasiba-final.s3-website-us-east-1.amazonaws.com](http://nasiba-final.s3-website-us-east-1.amazonaws.com).
+
 ## Resources
 - **AWS S3 Bucket**: Creates an S3 bucket for hosting a static website.
 - **AWS S3 Bucket Website Configuration**: Configures the bucket with index and error documents.
